@@ -1,6 +1,6 @@
 {
     "name": "onion-explorer",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "🧅 Simple terminal directory explorer",
     "type": "module",
     "bin": {
@@ -16,7 +16,13 @@
         "analyze": "npm pack --dry-run && du -sh node_modules || echo 'Dependencies size check'",
         "publish-check": "npm publish --dry-run"
     },
-    "keywords": ["cli", "directory", "explorer", "terminal", "navigation"],
+    "keywords": [
+        "cli",
+        "directory",
+        "explorer",
+        "terminal",
+        "navigation"
+    ],
     "author": "",
     "license": "MIT",
     "engines": {

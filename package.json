@@ -1,5 +1,5 @@
 {
-    "name": "onion-cli",
+    "name": "onion-explorer",
     "version": "1.0.0",
     "description": "🧅 Simple terminal directory explorer",
     "type": "module",
@@ -10,7 +10,7 @@
         "start": "node index.js",
         "test": "node --check index.js",
         "link": "npm link",
-        "unlink": "npm unlink -g onion-cli",
+        "unlink": "npm unlink -g onion-explorer",
         "pack": "npm pack",
         "size": "npm pack --dry-run",
         "analyze": "npm pack --dry-run && du -sh node_modules || echo 'Dependencies size check'",

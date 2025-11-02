@@ -1,7 +1,12 @@
-# 🧅 Onion — A Terminal Directory Explorer
+# 🧅 Onion Explorer — Interactive Terminal Directory Navigator
 
-Onion is a lightweight, interactive directory explorer for your terminal.
-Navigate folders using arrow keys and explore your filesystem with ease.
+[![npm version](https://badge.fury.io/js/onion-explorer.svg)](https://www.npmjs.com/package/onion-explorer)
+[![npm downloads](https://img.shields.io/npm/dm/onion-explorer.svg)](https://www.npmjs.com/package/onion-explorer)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+**Onion Explorer** is a lightweight, interactive terminal directory explorer and file navigator. Browse your filesystem efficiently with keyboard controls, copy file paths to clipboard, and navigate large directories with smart scrolling.
+
+Perfect for developers, system administrators, and power users who prefer command-line tools for file management and directory exploration.
 
 ## 🚀 Features
 - **Keyboard navigation** (↑ ↓ Enter Backspace Esc)

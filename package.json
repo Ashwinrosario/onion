@@ -1,7 +1,7 @@
 {
     "name": "onion-explorer",
     "version": "1.0.1",
-    "description": "🧅 Simple terminal directory explorer",
+    "description": "🧅 Interactive terminal directory explorer and file navigator with keyboard controls. Browse folders, copy file paths to clipboard, and navigate filesystems efficiently from command line.",
     "type": "module",
     "bin": {
         "onion": "./index.js"
@@ -21,10 +21,31 @@
         "directory",
         "explorer",
         "terminal",
-        "navigation"
+        "navigation",
+        "file-manager",
+        "file-explorer",
+        "filesystem",
+        "browse",
+        "interactive",
+        "command-line",
+        "file-browser",
+        "tree",
+        "onion",
+        "folder-navigation",
+        "macos",
+        "linux",
+        "windows"
     ],
-    "author": "",
+    "author": "Ashwin Rosario <ashwinrosario@example.com> (https://github.com/Ashwinrosario)",
     "license": "MIT",
+    "homepage": "https://github.com/Ashwinrosario/onion#readme",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Ashwinrosario/onion.git"
+    },
+    "bugs": {
+        "url": "https://github.com/Ashwinrosario/onion/issues"
+    },
     "engines": {
         "node": ">=14.0.0"
     },

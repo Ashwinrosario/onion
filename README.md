@@ -15,12 +15,12 @@ Navigate folders using arrow keys and explore your filesystem with ease.
 
 ### Global Installation
 ```bash
-npm install -g onion-cli
+npm install -g onion-explorer
 ```
 
 ### Local Development
 ```bash
-git clone <repository-url>
+git clone https://github.com/Ashwinrosario/onion
 cd onion
 npm install
 npm link
@@ -65,3 +65,26 @@ npm run unlink
 
 ## 📝 License
 MIT
+
+## 📦 Package size
+
+The package contents and sizes (from a dry-run publish using `npm pack --dry-run`) are:
+
+- Package size (tarball): 2.9 kB
+- Unpacked size: 8.0 kB
+
+Dependencies on your machine (approximate) when installed locally:
+
+- `node_modules` size: ~1.5 MB
+
+These values were captured from a local dry-run and may vary slightly per environment.
+
+If you'd like to shrink the install size, consider removing non-essential dependencies or using lighter alternatives.
+
+## 🐞 Issues
+
+If you find bugs or want to request features, please use the project's issues page:
+
+https://github.com/Ashwinrosario/onion/issues
+
+You can convert those proposals into real GitHub issues, or I can open them for you.

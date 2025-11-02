@@ -1,6 +1,6 @@
 {
     "name": "onion-explorer",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "🧅 Interactive terminal directory explorer and file navigator with keyboard controls. Browse folders, copy file paths to clipboard, and navigate filesystems efficiently from command line.",
     "type": "module",
     "bin": {

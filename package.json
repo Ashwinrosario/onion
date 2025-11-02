@@ -1,0 +1,29 @@
+{
+    "name": "onion-cli",
+    "version": "1.0.0",
+    "description": "🧅 Simple terminal directory explorer",
+    "type": "module",
+    "bin": {
+        "onion": "./index.js"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "test": "node --check index.js",
+        "link": "npm link",
+        "unlink": "npm unlink -g onion-cli",
+        "pack": "npm pack",
+        "size": "npm pack --dry-run",
+        "analyze": "npm pack --dry-run && du -sh node_modules || echo 'Dependencies size check'",
+        "publish-check": "npm publish --dry-run"
+    },
+    "keywords": ["cli", "directory", "explorer", "terminal", "navigation"],
+    "author": "",
+    "license": "MIT",
+    "engines": {
+        "node": ">=14.0.0"
+    },
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "clipboardy": "^3.0.0"
+    }
+}
